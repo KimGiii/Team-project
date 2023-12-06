@@ -11,10 +11,10 @@ import java.sql.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class signUpDTO {
-    private String name;
     private String email;
     private String password;
     private String passwordCheck;
+    private String name;
     private String phoneNumber;
     private String birth;
     private String gender;
