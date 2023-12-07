@@ -104,7 +104,7 @@ function SignupPage() {
 
     // 서버에 회원가입 요청을 보내는 로직
     const body = { name, email, password, birth, phoneNumber, gender }
-    axios.post('http://localhost:4000/api/auth/signup', body)
+    axios.post('http://44.213.59.255:4000/api/auth/signup', body)
         .then(response => {
           // 성공 처리 로직 구현하기
           navigate('/')
