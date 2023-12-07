@@ -131,7 +131,7 @@ function LoginPage(){
                 <Button type="submit">로그인</Button>
             </LoginForm >
             <p>
-                계정이 없으신가요? <A href="/signup" content="회원가입하기"></A>
+                계정이 없으신가요? <Link to="/signup">회원가입하기</Link>
             </p>
             {msg}
             <button onClick={()=>{navigate("/home")}}>temporary</button>
