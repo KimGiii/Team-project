@@ -76,7 +76,7 @@ function LoginPage(){
             password
         }
 
-        axios.post("http://localhost:4000/api/auth/signIn", data)
+        axios.post("http://44.213.59.255:4000/api/auth/signIn", data)
              .then((response) => {
                  const responseData = response.data;
                  console.log(responseData);
