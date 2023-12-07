@@ -14,10 +14,10 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={ <LoginPage/> }/>
-                <Route path="/signup" element={ <SignupPage/>} />
-                <Route path="/home" element={ <HomePage/>}/>
-                <Route path="/shorts" element={<ShortsPage/>}/>
+                <Route path="44.210.23.21:3000" element={ <LoginPage/> }/>
+                <Route path="44.210.23.21:3000/signup" element={ <SignupPage/>} />
+                <Route path="44.210.23.21:3000/home" element={ <HomePage/>}/>
+                <Route path="44.210.23.21:3000/shorts" element={<ShortsPage/>}/>
 
             </Routes>
         </div>
